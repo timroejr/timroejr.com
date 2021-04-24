@@ -3,20 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<!--    <link href="css/bootstrap.css" rel="stylesheet">-->
     <link href="css/stylesheet.css" rel="stylesheet">
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
 
-    <header>
-        <div class="container" style="text-align: center;">
-                <img src="images/roe.png" id="profile">
-                <h1>Timothy Roe, Jr.</h1>
-                <p>Independent IT Consultant & Software Developer</p>
-                <p><em>Helping Small Businesses Grow Since 2013</em></p>
+    <header id="first">
+
+        <div id="header-video">
+            <video autoplay muted loop>
+                <source src="images/website.webm" type="video/webm">
+            </video>
         </div>
+
+        <div class="container container-size " style="text-align: center;">
+                <img src="images/roe.png" id="profile-img"><br><br>
+                <h1>Timothy Roe, Jr.</h1>
+                <h3>Independent IT Consultant & Software Developer</h3>
+                <h4><em>Helping Businesses Grow Since 2013</em></h4>
+                <h6><em>Proudly Based in San Dimas, California</em></h6><br><br>
+
+                <a href="#About-Me" class="btn btn-outline-light" id="read-more">Learn More About Me</a> &nbsp;
+                <a href="#projects" class="btn btn-outline-light" id="read-more-two">Research & Recent Projects</a> &nbsp;
+                <a href="#connect" class="btn btn-outline-light" id="read-more-three">Connect with Me</a> &nbsp;
+        </div>
+
+
     </header>
+    <div id="About-Me">
+        <div class="container" class="text">
+            <h1 style="text-align: center;">Hi, I'm Tim.</h1>
+                <h6 style="padding-left: 25%; padding-right:25%; line-height: 25px; text-align: center;">I'm an Independent IT Consultant and Software Developer
+                    in the Greater Los Angeles Area. I started working in IT and Software when I was 13 years old and
+                    have worked with hundreds of clients throughout Southern California, Southern Nevada, and Arizona.
+                    My job is to ensure that your satisfaction is met, not only by you but also by your customers.
+                    It's always been a pleasure to serve my clientele and help <br> them achieve their business's technological dreams.
+                </h6>
+        </div>
+    </div>
+
+    <div id="specs">
+        <div class="container" id="skill-card">
+            <div class="row justify-content-center" id="spec-row">
+                <div class="col" id="spec-col">
+                    <img src="images/web-programming.png"><br>
+                    <h5>Software Development</h5>
+                    <p style="line-height: 150%;">I like to program from the ground up, bringing the ideas in my head <br>(and your's) to life.</p>
+                    <h6>Languages I Know</h6><br>
+                    <p>Objective-C</p>
+                    <p>Swift</p>
+                    <p>Java</p>
+                    <p>JavaScript</p>
+                    <p>Python</p>
+                    <p>C++</p>
+                    <p>Lua</p><br>
+                    <h6>Technologies I Use</h6><br>
+                    <p>NodeJS</p>
+                    <p>MySQL</p>
+                    <p>PostgresDB</p>
+                    <p>MongoDB</p>
+                    <p>Parse Platform</p>
+                    <p>Team Foundations Server</p>
+                    <p>Github</p>
+                    <p>Robots Framework</p>
+                    <p>Jenkins</p>
+                    <p>Docker</p>
+                </div>
+                <div class="col">
+                    <img src="images/computer.png"> <br>
+                    <h5 style="text-align: center">IT Consulting</h5>
+                    <p style="line-height: 150%;">I've always been passionate about helping my customer's accomplish their IT needs at a fraction of the cost.</p>
+                    <h6>Services I Provide</h6><br>
+                    <p>Reliable Web Hosting</p>
+                    <p>Custom Built PCs</p>
+                    <p>Enterprise Networking</p>
+                    <p>Virus Removal</p>
+                    <p>Computer Tune-Ups</p>
+                    <p>Whole Disk Encryption</p>
+                    <p>Specialized Technical Support</p>
+                    <p>Remote Technical Support</p>
+                    <p>Voice over IP (VoIP)</p><br>
+                    <h6>Companies I Partner With</h6><br>
+                    <p>Microsoft</p>
+                    <p>Apple</p>
+                    <p>Google</p>
+                    <p>IngramMicro</p>
+                    <p>Amazon</p>
+                    <p>MicroCenter</p>
+                    <p>Lenovo</p>
+                    <p>Ubiquiti</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h2 style="text-align: center;">Recent Projects & Research</h2>
+            <h5 style="text-align: center;">Interested to Learn More about a Project? Contact Me.</h5><br>
+            <div class="card-columns">
+
+                    <div class="card border-secondary">
+                        <div class="card-body">
+                            <h5 class="card-title">Dekatos</h5>
+                            <p class="card-text">Mobile Application Software provided to churches to help save costs when
+                                it comes to electronic tithing. Users can watch and stream messages and submit prayer requests to their church.
+                                Offered completely free to churches.</p>
+                            <a href="https://apps.apple.com/us/app/bethel-cc/id1094376397" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+
+<!--                <div class="col-lg-6">-->
+                    <div class="card border-secondary">
+                        <center>
+                            <img src="images/classified_file.png">
+                        </center>
+                        <div class="card-body">
+                            <h5 class="card-title">Anomaly Detection in Self-Driving Cars</h5>
+                            <p class="card-text">A Senior Capstone Project at California Baptist University, designing a
+                                Machine Learning/Artificial Intelligence algorithm that detects and determines anomalies that
+                                might occur when a car is driving down the road to prevent potential accidents or property damage.</p>
+                            <a href="http://itsclassified-blog.ml" class="btn btn-primary">View Project Blog</a><br><br>
+                            <a href="http://itsclassified-cbu.ml" class="btn btn-primary">View Project Website</a>
+                        </div>
+                    </div>
+<!--                </div>-->
+
+<!--                <div class="col-lg-6">-->
+                    <div class="card border-secondary">
+                        <center>
+                            <img src="https://www.technipfmc.com/media/skznpkug/digital_02.jpg">
+                        </center>
+                        <div class="card-body">
+                            <h5 class="card-title">UCOS HMI Automation</h5>
+                            <p class="card-text">Working with TechnipFMC to work and implement Automation Testing and
+                                Continuous Integration & Deployment for future versions of the UCOS HMI Software.</p>
+                            <a href="https://www.technipfmc.com/en/media/features/digital-automation-advancing-energy-industry/?type=features" class="btn btn-primary">View Media Release</a>
+                        </div>
+                    </div>
+<!--                </div>-->
+
+            </div>
+
+            <!--https://apps.apple.com/us/app/bethel-cc/id109437639 Bethel -->
+            <!--itsclassified-cbu.ml itsclassified-blog.ml-->
+            <!--https://www.technipfmc.com/en/what-we-do/surface/upstream/production/-->
+        </div>
+    </div>
+
+<!--    <div id="worked-with">-->
+<!--        <div class="container">-->
+<!--            <h2 style="text-align: center;">Clients & Companies I Work With</h2>-->
+
+<!--&lt;!&ndash;            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="carousel-inner">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="carousel-item active">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <img class="d-block" src="images/companies/farmers-logo2.png">&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="carousel-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <img class="d-block" src="images/companies/fmc.png">&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="carousel-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <img class="d-block" src="images/companies/logmein.png">&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="carousel-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <img class="d-block" src="images/companies/Yealink-Logo.png">&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+
+
+<!--            <div class="container" id="companies">-->
+<!--                <div class="row justify-content-evenly">-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/farmers-logo2.png">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/fmc.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row justify-content-around">-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/logmein.png">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/Yealink-Logo.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row justify-content-between">-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/intel.png">-->
+<!--                    </div>-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/lenovo.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row justify-content-evenly">-->
+<!--&lt;!&ndash;                    <div class="col">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <img src="images/companies/logmein.png">&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                    <div class="col">-->
+<!--                        <img src="images/companies/ubi.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div id="connect">
+        <div class="container" id="connect-cont">
+
+            <h2>Connect With Me</h2><br>
+
+            <h5 style="width:40%; margin: 0 auto;">I love chatting with people about how I can help them improve there business, or even for general inquires.
+                Feel free to drop me a email or reach out to me online.</h5><br>
+
+            <p><img src="images/links/email.png"> troe@roeboatcorp.com</p>
+            <p><img src="images/links/email.png"> troe@timroejr.com</p>
+            <p><img src="images/links/phone.png"> +1 (909) 833 0582 </p>
+
+
+            <a href="mailto:troe@roeboatcorp.com" class="btn btn-outline-light">Connect With Me Now</a> <br><br>
+
+            <a href="https://github.com/timroejr" target="_blank">
+                <img src="images/links/github.png">
+            </a>
+            &nbsp;
+            <a href="https://www.linkedin.com/in/timroejr/" target="_blank">
+                <img style="background-color: white; border-radius: 10px;" src="images/links/linkedin.png">
+            </a>
+            &nbsp;
+            <a href="https://appstore.com/timothyroejr" target="_blank">
+                <img src="images/links/app_store.png">
+            </a>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <h5>Registered Apple Developer</h5>
+        <h5>Registered Google Play Developer</h5>
+        <h5>Copyright © 2021 Timothy E. Roe, Jr. All Rights Reserved.</h5><br>
+
+        <h6 style="width: 40%; margin: 0 auto;">"Whatever you do, work heartily, as for the Lord and not for men, known that from the Lord you will receive
+            the inheritance as your reward. You are service the Lord Christ."</h6>
+        <h6>Colossians 3:23-24 ESV</h6><br>
+
+        <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div>Some images on this website are free and available by <a class="nonblock" href="https://icons8.com">Icons8</a></div>
+
+    </footer>
+
 
 </body>
+
 </html>

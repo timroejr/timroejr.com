@@ -1,11 +1,168 @@
 
-img {
-    border-radius: 50%;
+body {
+    color: white;
+}
+
+#profile-img {
+    border-radius: 100%;
     border-style: solid;
     border-color: black;
     border-width: 5px;
+    height: 300px;
 }
 
-#profile {
-    height: 300px;
+#spec-col {
+    border-right-style: solid;
+    border-color: lightblue;
+    border-width: 2px;
+}
+
+.col img {
+    height: 100px;
+    horiz-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    text-align: center;
+
+}
+
+.col p {
+    line-height: 70%;
+}
+
+
+
+/*.col {*/
+/*    border-width: 10px;*/
+/*    border-color: lightblue;*/
+/*    border-style: solid;*/
+/*}*/
+
+.carousel-item img {
+    width: 500px;
+    padding: 20px;
+    margin: auto auto;
+}
+
+.carousel {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 25px;
+}
+
+#spec-row:first-child {
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 25px;
+    padding: 25px;
+    border-color: lightblue;
+    border-width: 5px;
+    border-style: solid;
+
+    color: black;
+
+}
+
+.card img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#first {
+    /*padding-top: 150px;*/
+    /*padding-bottom: 200px;*/
+    padding-top: 25vh;
+    height: 100vh;
+    /*background-color: rgb(0, 105, 92);*/
+}
+
+#About-Me {
+    width: 100%;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #0a53be;
+}
+
+#specs {
+    width: 100%;
+    margin: 0px;
+    padding: 50px;
+    background: linear-gradient(180deg, #0a53be 40%, white 40% 60%);
+    background-color: white;
+}
+
+#projects {
+    background-color: white;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+#worked-with {
+    background-color: #0a53be;
+    padding: 50px;
+}
+
+#connect {
+    background-color: black;
+    padding: 50px;
+}
+
+#companies {
+    background-color: white;
+
+}
+
+#connect-cont {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#connect-cont p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+#header-video {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.card {
+    border-color: lightblue !important;
+    border-width: 5px;
+    border-radius: 10px;
 }
